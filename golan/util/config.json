@@ -1,0 +1,42 @@
+{
+    "db_init": {
+        "config": {
+            "dialect": "mysql",
+            "user": "scott",
+            "passwd": "456233",
+            "dbname": "dev_db",
+            "host": "localhost"
+        },
+        "role": {
+            "admin": "manager",
+            "dev": "developer",
+            "test": "testter",
+            "config": "configure",
+            "super": "super",
+            "observer": "visitor"
+        },
+        "department": {
+            "plan": "tech plan dpt",
+            "internet": "front-end dpt",
+            "general": "general affair dpt",
+            "maintenance": "QA dpt",
+            "transactions": "service dpt",
+            "assistant": "assistant dpt"
+        },
+        "user": {
+            "name": "admin",
+            "password": "753951",
+            "email": "hjj@idlehanker.com",
+            "mobile": "13666666666",
+            "sex": "male",
+            "age": 26,
+            "staff": "inner"
+        }
+    },
+    "http":{
+      "Address"        : "127.0.0.1:8080",
+      "ReadTimeout"    : 10,
+      "WriteTimeout"   : 600,
+      "Static"         : "public"
+    }
+}
